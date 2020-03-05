@@ -1,0 +1,10 @@
+
+framework module ScanditParser [extern_c] {
+    umbrella header "ScanditParser.h"
+
+    export *
+    module * {
+        export *
+    }
+}
+

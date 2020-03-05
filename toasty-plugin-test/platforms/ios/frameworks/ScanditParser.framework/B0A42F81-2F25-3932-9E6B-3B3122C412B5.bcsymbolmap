@@ -1,0 +1,169 @@
+BCSymbolMap Version: 2.0
+-[SDCParsedData initWithCpp:]
+-[SDCParsedData typeErasedCppImpl]
+-[SDCParsedData jsonString]
+-[SDCParsedData fieldsByName]
+-[SDCParsedData fields]
+-[SDCParsedData .cxx_destruct]
+-[SDCParsedData .cxx_construct]
+___clang_call_terminate
+-[SDCParsedData fields].cold.1
+__ZNSt3__16vectorINS_10shared_ptrIN3sdc11ParsedFieldEEENS_9allocatorIS4_EEEC2ERKS7_.cold.1
+__ZN6djinni18get_cpp_proxy_implI14SDCParsedFieldN3sdc11ParsedFieldEEEPT_RKNSt3__110shared_ptrIT0_EE.cold.1
+__ZZN6djinni18get_cpp_proxy_implI14SDCParsedFieldN3sdc11ParsedFieldEEEPT_RKNSt3__110shared_ptrIT0_EEENUlRKNS7_IvEEE_8__invokeESE_.cold.1
+_OBJC_IVAR_$_SDCParsedData._impl
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/scandit/builds/pL6aDxR2/0/mobile/data-capture-sdk/libs/sdc/parser/ios/src/SDCParsedData.mm
+/Users/scandit/builds/pL6aDxR2/0/mobile/data-capture-sdk
+__invoke
+third-party/djinni/support-lib/objc/DJICppWrapperCache+Private.h
+operator()
+~shared_ptr
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory
+__release_shared
+__libcpp_atomic_refcount_decrement<long>
+get_cpp_proxy_impl<SDCParsedField, sdc::ParsedField>
+vector
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector
+~__vector_base
+clear
+__destruct_at_end
+destroy<std::__1::shared_ptr<sdc::ParsedField> >
+__destroy<std::__1::shared_ptr<sdc::ParsedField> >
+destroy
+deallocate
+__libcpp_deallocate
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new
+__do_deallocate_handle_size_align
+__do_deallocate_handle_size
+__do_call
+libs/sdc/parser/ios/src/SDCParsedData.mm
+~vector
+~Handle
+third-party/djinni/support-lib/objc/../proxy_cache_interface.hpp
+type_index
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/typeindex
+operator bool
+pair<SDCParsedField *, void *, false>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility
+static_pointer_cast<sdc::ParsedField, void>
+shared_ptr<void>
+__add_shared
+__libcpp_atomic_refcount_increment<long>
+shared_ptr<sdc::ParsedField>
+__construct_range_forward<std::__1::shared_ptr<sdc::ParsedField> *, std::__1::shared_ptr<sdc::ParsedField> *>
+__construct_at_end<std::__1::shared_ptr<sdc::ParsedField> *>
+construct<std::__1::shared_ptr<sdc::ParsedField>, std::__1::shared_ptr<sdc::ParsedField> &>
+__construct<std::__1::shared_ptr<sdc::ParsedField>, std::__1::shared_ptr<sdc::ParsedField> &>
+shared_ptr
+__vallocate
+allocate
+__libcpp_allocate
+size
+__vector_base
+__compressed_pair<nullptr_t, std::__1::allocator<std::__1::shared_ptr<sdc::ParsedField> > >
+__compressed_pair_elem<nullptr_t, void>
+Handle<>
+operator!=<std::__1::shared_ptr<sdc::ParsedField> *>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator
+operator==<std::__1::shared_ptr<sdc::ParsedField> *, std::__1::shared_ptr<sdc::ParsedField> *>
+operator++
+get_cpp_proxy<SDCParsedField, std::__1::shared_ptr<sdc::ParsedField> >
+getFields
+libs/sdc/parser/main/include/sdc/parser/parsed_data.hh
+get
+~basic_string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string
+__get_long_pointer
+__is_long
+getJsonData
+shared_ptr<sdc::ParsedData>
+assign
+operator=
+swap
+swap<std::__1::__shared_weak_count *>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits
+swap<sdc::ParsedData *>
+-[SDCParsedField initWithCpp:]
+-[SDCParsedField typeErasedCppImpl]
+-[SDCParsedField name]
+-[SDCParsedField parsed]
+-[SDCParsedField rawString]
+-[SDCParsedField issues]
+-[SDCParsedField .cxx_destruct]
+-[SDCParsedField .cxx_construct]
+-[SDCParsedField issues].cold.1
+__ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2ERKS8_.cold.1
+_OBJC_IVAR_$_SDCParsedField._impl
+/Users/scandit/builds/pL6aDxR2/0/mobile/data-capture-sdk/libs/sdc/parser/ios/src/SDCParsedField.mm
+destroy<std::__1::basic_string<char> >
+__destroy<std::__1::basic_string<char> >
+libs/sdc/parser/ios/src/SDCParsedField.mm
+__construct_range_forward<std::__1::basic_string<char> *, std::__1::basic_string<char> *>
+__construct_at_end<std::__1::basic_string<char> *>
+construct<std::__1::basic_string<char>, std::__1::basic_string<char> &>
+__construct<std::__1::basic_string<char>, std::__1::basic_string<char> &>
+__compressed_pair<nullptr_t, std::__1::allocator<std::__1::basic_string<char> > >
+nsarrayWithCppVector<std::__1::basic_string<char>, NSString *(&)(const std::__1::basic_string<char> &)>
+libs/sdc/core/ios/include/ScanditCaptureCore/Private/SDCUtils.hh
+operator!=<const std::__1::basic_string<char> *>
+operator==<const std::__1::basic_string<char> *, const std::__1::basic_string<char> *>
+getIssues
+libs/sdc/parser/main/include/sdc/parser/parsed_field.hh
+getStringValue
+getName
+swap<sdc::ParsedField *>
+__ZL10initializev
+-[SDCParser initWithCpp:]
+-[SDCParser typeErasedCppImpl]
++[SDCParser parserForContext:format:error:]
+-[SDCParser parseString:error:]
+-[SDCParser parseRawData:error:]
+-[SDCParser setOptions:error:]
+-[SDCParser .cxx_destruct]
+-[SDCParser .cxx_construct]
+__ZN6djinni18get_cpp_proxy_implI9SDCParserN3sdc6ParserEEEPT_RKNSt3__110shared_ptrIT0_EE.cold.1
+__ZZN6djinni18get_cpp_proxy_implI9SDCParserN3sdc6ParserEEEPT_RKNSt3__110shared_ptrIT0_EEENUlRKNS7_IvEEE_8__invokeESE_.cold.1
+__ZN6djinni18get_cpp_proxy_implI13SDCParsedDataN3sdc10ParsedDataEEEPT_RKNSt3__110shared_ptrIT0_EE.cold.1
+__ZZN6djinni18get_cpp_proxy_implI13SDCParsedDataN3sdc10ParsedDataEEEPT_RKNSt3__110shared_ptrIT0_EEENUlRKNS7_IvEEE_8__invokeESE_.cold.1
+_OBJC_IVAR_$_SDCParser._impl
+/Users/scandit/builds/pL6aDxR2/0/mobile/data-capture-sdk/libs/sdc/parser/ios/src/SDCParser.mm
+get_cpp_proxy_impl<SDCParsedData, sdc::ParsedData>
+get_cpp_proxy_impl<SDCParser, sdc::Parser>
+pair<SDCParsedData *, void *, false>
+static_pointer_cast<sdc::ParsedData, void>
+pair<SDCParser *, void *, false>
+static_pointer_cast<sdc::Parser, void>
+shared_ptr<sdc::Parser>
+libs/sdc/parser/ios/src/SDCParser.mm
+fail
+libs/bar/include/bar/assert.hh
+get_cpp_proxy<SDCParsedData, std::__1::shared_ptr<sdc::ParsedData> >
+basic_string
+__init
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__string
+copy
+__get_short_pointer
+__set_short_size
+__set_long_size
+__set_long_cap
+__set_long_pointer
+__recommend
+__align_it<16>
+__compressed_pair<true, void>
+__compressed_pair_elem
+get_cpp_proxy<SDCParser, std::__1::shared_ptr<sdc::Parser> >
+convertTo
+swap<sdc::Parser *>
+initialize
+__ZNSt3__1L20__throw_length_errorEPKc
+__ZNSt12length_errorC1EPKc
+__ZNSt3__110shared_ptrIN3sdc11ParsedFieldEE11make_sharedIJNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_SA_NS_6vectorISA_NS8_ISA_EEEEEEES3_DpOT_.cold.1
+__ZNSt3__110shared_ptrIN3sdc11ParsedFieldEE11make_sharedIJNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_SA_NS_6vectorISA_NS8_ISA_EEEEEEES3_DpOT_.cold.2
+____ZN3bar19SerialDispatchQueue4syncIZN3sdc6Parser6createERKNSt3__110shared_ptrINS2_4core18DataCaptureContextEEENS2_16ParserDataFormatEE3$_0EENS4_12remove_constINS4_16remove_referenceIDTclfp_EEE4typeEE4typeEOT__block_invoke
+___copy_helper_block_ea4_20r
+___destroy_helper_block_ea4_20r
+__ZN3sdc6Parser11parseStringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE.cold.1
+___block_descriptor_tmp
+__ZNSt3__110shared_ptrIN6djinni10ProxyCacheINS1_20ObjcProxyCacheTraitsEE5PimplEEC2IS5_EEPT_NS_9enable_ifIXsr14is_convertibleIS9_PS5_EE5valueENS6_5__natEE4typeE.cold.1
+__ZNSt3__110shared_ptrIN6djinni10ProxyCacheINS1_19CppProxyCacheTraitsEE5PimplEEC2IS5_EEPT_NS_9enable_ifIXsr14is_convertibleIS9_PS5_EE5valueENS6_5__natEE4typeE.cold.1
